@@ -1,0 +1,10 @@
+{
+  "resourceName": "thankyouappuser",
+  "tableName": "thankyouappuser",
+  "partitionKey": {
+    "fieldName": "user_id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const BlankPage = () => {
   return (
     <>
-      空っぽのページです。
+      工事中です。
       <div>
         <Link to="/blank">ブランクページへ</Link>
       </div>

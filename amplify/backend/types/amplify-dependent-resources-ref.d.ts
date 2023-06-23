@@ -1,23 +1,23 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "LambdaTest": {
+    "amplifyhomes": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string",
+      "GraphQLAPIKeyOutput": "string"
+    },
+    "thankyouAppUser": {
       "ApiId": "string",
       "ApiName": "string",
       "RootUrl": "string"
     },
-    "sakumotoAppUser": {
-      "ApiId": "string",
-      "ApiName": "string",
-      "RootUrl": "string"
-    },
-    "todoApps": {
+    "yogiAppUser": {
       "ApiId": "string",
       "ApiName": "string",
       "RootUrl": "string"
     }
   },
   "auth": {
-    "amplifyhomes": {
+    "thankyouapp": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
@@ -25,34 +25,17 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
-    },
-    "userPoolGroups": {
-      "adminGroupRole": "string"
     }
   },
   "function": {
-    "LambdaTest": {
+    "thankyouAppUser": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
       "Name": "string",
       "Region": "string"
     },
-    "LambdaTest1": {
-      "Arn": "string",
-      "LambdaExecutionRole": "string",
-      "LambdaExecutionRoleArn": "string",
-      "Name": "string",
-      "Region": "string"
-    },
-    "sakumotoAppUser": {
-      "Arn": "string",
-      "LambdaExecutionRole": "string",
-      "LambdaExecutionRoleArn": "string",
-      "Name": "string",
-      "Region": "string"
-    },
-    "todoFunction": {
+    "thankyouappe555d312": {
       "Arn": "string",
       "LambdaExecutionRole": "string",
       "LambdaExecutionRoleArn": "string",
@@ -61,28 +44,12 @@ export type AmplifyDependentResourcesAttributes = {
     }
   },
   "storage": {
-    "s3amplifyhomesstorage855d51b1": {
-      "BucketName": "string",
-      "Region": "string"
-    },
-    "sakumotoApp": {
+    "thankyouappuser": {
       "Arn": "string",
       "Name": "string",
       "PartitionKeyName": "string",
       "PartitionKeyType": "string",
       "Region": "string",
-      "SortKeyName": "string",
-      "SortKeyType": "string",
-      "StreamArn": "string"
-    },
-    "sakumotoAppUser": {
-      "Arn": "string",
-      "Name": "string",
-      "PartitionKeyName": "string",
-      "PartitionKeyType": "string",
-      "Region": "string",
-      "SortKeyName": "string",
-      "SortKeyType": "string",
       "StreamArn": "string"
     }
   }

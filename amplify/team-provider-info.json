@@ -1,4 +1,41 @@
 {
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-thankyouapp-staging-25940-authRole",
+      "UnauthRoleArn": "arn:aws:iam::711556954185:role/amplify-thankyouapp-staging-25940-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::711556954185:role/amplify-thankyouapp-staging-25940-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
+      "UnauthRoleName": "amplify-thankyouapp-staging-25940-unauthRole",
+      "StackName": "amplify-thankyouapp-staging-25940",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:711556954185:stack/amplify-thankyouapp-staging-25940/33054420-f5f1-11ed-adf6-0ad2b79aec81",
+      "AmplifyAppId": "d3j2odm0qkeyi4",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-thankyouapp-staging-25940-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "thankyouapp": {}
+      },
+      "api": {
+        "amplifyhomes": {},
+        "thankyouAppUser": {},
+        "yogiAppUser": {}
+      },
+      "storage": {
+        "thankyouappuser": {}
+      },
+      "function": {
+        "thankyouappe555d312": {
+          "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
+          "s3Key": "amplify-builds/thankyouappe555d312-3035742f65657149687a-build.zip"
+        },
+        "thankyouAppUser": {
+          "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
+          "s3Key": "amplify-builds/thankyouAppUser-635938772f7350715278-build.zip"
+        }
+      }
+    }
+  },
   "master": {
     "awscloudformation": {
       "AuthRoleName": "amplify-amplifyhomes-master-124532-authRole",
