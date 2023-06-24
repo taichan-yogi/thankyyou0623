@@ -93,22 +93,6 @@
     }
   },
   "parameters": {
-    "AMPLIFY_function_thankyouAppUser_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "thankyouAppUser"
-        }
-      ]
-    },
-    "AMPLIFY_function_thankyouAppUser_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "thankyouAppUser"
-        }
-      ]
-    },
     "AMPLIFY_function_thankyouappe555d312_deploymentBucketName": {
       "usedBy": [
         {
