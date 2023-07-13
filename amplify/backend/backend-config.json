@@ -1,25 +1,5 @@
 {
   "api": {
-    "amplifyhomes": {
-      "output": {
-        "authConfig": {
-          "additionalAuthenticationProviders": [
-            {
-              "authenticationType": "AWS_IAM"
-            }
-          ],
-          "defaultAuthentication": {
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 30,
-              "description": "api key description"
-            },
-            "authenticationType": "API_KEY"
-          }
-        }
-      },
-      "providerPlugin": "awscloudformation",
-      "service": "AppSync"
-    },
     "thankyouAppUser": {
       "dependsOn": [
         {
@@ -93,6 +73,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_thankyouAppUser_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "thankyouAppUser"
+        }
+      ]
+    },
+    "AMPLIFY_function_thankyouAppUser_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "thankyouAppUser"
+        }
+      ]
+    },
     "AMPLIFY_function_thankyouappe555d312_deploymentBucketName": {
       "usedBy": [
         {

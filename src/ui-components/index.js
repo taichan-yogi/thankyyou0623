@@ -11,5 +11,3 @@ export { default as Loginerror } from "./Loginerror";
 export { default as Getpresent } from "./Getpresent";
 export { default as Meinmenu } from "./Meinmenu";
 export { default as studioTheme } from "./studioTheme";
-export { default as UserName } from "./UserName";
-export { default as HomeUpdateForm } from "./HomeUpdateForm";

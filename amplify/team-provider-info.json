@@ -21,10 +21,17 @@
           "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
           "s3Key": "amplify-builds/thankyouappe555d312-3035742f65657149687a-build.zip"
         },
-        "thankyouAppUser": {}
+        "thankyouAppUser": {
+          "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
+          "s3Key": "amplify-builds/thankyouAppUser-635938772f7350715278-build.zip"
+        }
       },
       "storage": {
         "thankyouappuser": {}
+      },
+      "api": {
+        "thankyouAppUser": {},
+        "yogiAppUser": {}
       }
     }
   }
