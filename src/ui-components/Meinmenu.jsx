@@ -46,21 +46,6 @@ export default function Meinmenu(props) {
         height="44px"
         {...getOverrideProps(overrides, "Status Bar13891")}
       ></View>
-      <View
-        width="367px"
-        height="43px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="448px"
-        left="23px"
-        borderRadius="10px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(242,121,107,1)"
-        {...getOverrideProps(overrides, "Rectangle 4")}
-      ></View>
       <Text
         fontFamily="Poppins"
         fontSize="15px"
@@ -120,21 +105,6 @@ export default function Meinmenu(props) {
         height="44px"
         {...getOverrideProps(overrides, "Status Bar13906")}
       ></View>
-      <View
-        width="367px"
-        height="43px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="448px"
-        left="23px"
-        borderRadius="10px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(242,121,107,1)"
-        {...getOverrideProps(overrides, "Rectangle 10")}
-      ></View>
       <Text
         fontFamily="Poppins"
         fontSize="15px"
@@ -193,21 +163,6 @@ export default function Meinmenu(props) {
         width="412px"
         height="44px"
         {...getOverrideProps(overrides, "Status Bar13921")}
-      ></View>
-      <View
-        width="367px"
-        height="43px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="448px"
-        left="23px"
-        borderRadius="10px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(242,121,107,1)"
-        {...getOverrideProps(overrides, "Rectangle 15")}
       ></View>
       <Text
         fontFamily="Poppins"
@@ -305,21 +260,6 @@ export default function Meinmenu(props) {
         children="Login"
         {...getOverrideProps(overrides, "Login13942")}
       ></Text>
-      <View
-        width="367px"
-        height="43px"
-        display="block"
-        gap="unset"
-        alignItems="unset"
-        justifyContent="unset"
-        position="absolute"
-        top="320px"
-        left="23px"
-        borderRadius="10px"
-        padding="0px 0px 0px 0px"
-        backgroundColor="rgba(242,121,107,1)"
-        {...getOverrideProps(overrides, "Rectangle 21")}
-      ></View>
       <Text
         fontFamily="Poppins"
         fontSize="15px"
@@ -342,53 +282,111 @@ export default function Meinmenu(props) {
         children="ThankYouPoint交換"
         {...getOverrideProps(overrides, "ThankYouPoint\u4EA4\u63DB")}
       ></Text>
-      <Text
-        fontFamily="Poppins"
-        fontSize="15px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="22.5px"
-        textAlign="left"
+      <View
+        padding="0px 0px 0px 0px"
+        width="367px"
+        height="43px"
         display="block"
-        direction="column"
-        justifyContent="unset"
-        width="unset"
-        height="unset"
         gap="unset"
         alignItems="unset"
-        position="absolute"
-        top="458px"
-        left="115px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="もらったThankYouを見る"
-        {...getOverrideProps(
-          overrides,
-          "\u3082\u3089\u3063\u305FThankYou\u3092\u898B\u308B"
-        )}
-      ></Text>
-      <Text
-        fontFamily="Poppins"
-        fontSize="15px"
-        fontWeight="700"
-        color="rgba(255,255,255,1)"
-        lineHeight="22.5px"
-        textAlign="left"
-        display="block"
-        direction="column"
         justifyContent="unset"
-        width="unset"
-        height="unset"
+        position="absolute"
+        top="517px"
+        left="23px"
+        {...getOverrideProps(overrides, "Group 2")}
+      >
+        <View
+          width="367px"
+          height="43px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="0px"
+          borderRadius="10px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(242,121,107,1)"
+          {...getOverrideProps(overrides, "Rectangle 15")}
+        ></View>
+        <Text
+          fontFamily="Poppins"
+          fontSize="15px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="22.5px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="unset"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="10px"
+          left="92px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="もらったThankYouを見る"
+          {...getOverrideProps(
+            overrides,
+            "\u3082\u3089\u3063\u305FThankYou\u3092\u898B\u308B"
+          )}
+        ></Text>
+      </View>
+      <View
+        padding="0px 0px 0px 0px"
+        width="367px"
+        height="43px"
+        display="block"
         gap="unset"
         alignItems="unset"
+        justifyContent="unset"
         position="absolute"
-        top="330px"
-        left="142px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Thank You を送る"
-        {...getOverrideProps(overrides, "Thank You \u3092\u9001\u308B")}
-      ></Text>
+        top="440px"
+        left="23px"
+        {...getOverrideProps(overrides, "Group 3")}
+      >
+        <View
+          width="367px"
+          height="43px"
+          display="block"
+          gap="unset"
+          alignItems="unset"
+          justifyContent="unset"
+          position="absolute"
+          top="0px"
+          left="0px"
+          borderRadius="10px"
+          padding="0px 0px 0px 0px"
+          backgroundColor="rgba(242,121,107,1)"
+          {...getOverrideProps(overrides, "Rectangle 21")}
+        ></View>
+        <Text
+          fontFamily="Poppins"
+          fontSize="15px"
+          fontWeight="700"
+          color="rgba(255,255,255,1)"
+          lineHeight="22.5px"
+          textAlign="left"
+          display="block"
+          direction="column"
+          justifyContent="unset"
+          width="unset"
+          height="unset"
+          gap="unset"
+          alignItems="unset"
+          position="absolute"
+          top="10px"
+          left="119px"
+          padding="0px 0px 0px 0px"
+          whiteSpace="pre-wrap"
+          children="Thank You を送る"
+          {...getOverrideProps(overrides, "Thank You \u3092\u9001\u308B")}
+        ></Text>
+      </View>
       <View
         width="375px"
         height="13px"
@@ -421,30 +419,64 @@ export default function Meinmenu(props) {
         height="19px"
         {...getOverrideProps(overrides, "User13949")}
       ></View>
+      <View
+        width="367px"
+        height="90px"
+        display="block"
+        gap="unset"
+        alignItems="unset"
+        justifyContent="unset"
+        position="absolute"
+        top="137px"
+        left="23px"
+        borderRadius="14px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(217,217,217,1)"
+        {...getOverrideProps(overrides, "Rectangle 28")}
+      ></View>
       <Text
         fontFamily="Poppins"
         fontSize="19px"
         fontWeight="700"
         color="rgba(0,0,0,1)"
         lineHeight="28.5px"
-        textAlign="center"
+        textAlign="left"
         display="block"
         direction="column"
         justifyContent="unset"
-        width="234px"
-        height="unset"
+        width="180px"
+        height="28px"
         gap="unset"
         alignItems="unset"
         position="absolute"
-        top="119px"
-        left="90px"
+        top="95px"
+        left="40px"
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
-        children="メインメニュー"
-        {...getOverrideProps(
-          overrides,
-          "\u30E1\u30A4\u30F3\u30E1\u30CB\u30E5\u30FC"
-        )}
+        children="もらったThankYou"
+        {...getOverrideProps(overrides, "\u3082\u3089\u3063\u305FThankYou")}
+      ></Text>
+      <Text
+        fontFamily="Poppins"
+        fontSize="19px"
+        fontWeight="700"
+        color="rgba(0,0,0,1)"
+        lineHeight="28.5px"
+        textAlign="left"
+        display="block"
+        direction="column"
+        justifyContent="unset"
+        width="48px"
+        height="31px"
+        gap="unset"
+        alignItems="unset"
+        position="absolute"
+        top="167px"
+        left="calc(50% - 24px - -2px)"
+        padding="0px 0px 0px 0px"
+        whiteSpace="pre-wrap"
+        children="999"
+        {...getOverrideProps(overrides, "999")}
       ></Text>
     </View>
   );

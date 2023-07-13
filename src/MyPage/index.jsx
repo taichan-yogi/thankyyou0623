@@ -32,11 +32,13 @@ const MyPage = () => {
       title: "Attribute",
       dataIndex: "attribute",
       key: "attribute",
+      render: (text) => <span style={{ color: "red" }}>{text}</span>,
     },
     {
       title: "Value",
       dataIndex: "value",
       key: "value",
+      render: (text) => <span style={{ color: "red" }}>{text}</span>,
     },
   ];
 

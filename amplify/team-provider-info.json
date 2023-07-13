@@ -19,11 +19,11 @@
       "function": {
         "thankyouappe555d312": {
           "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
-          "s3Key": "amplify-builds/thankyouappe555d312-3035742f65657149687a-build.zip"
+          "s3Key": "amplify-builds/thankyouappe555d312-35623038427843377432-build.zip"
         },
         "thankyouAppUser": {
           "deploymentBucketName": "amplify-thankyouapp-staging-25940-deployment",
-          "s3Key": "amplify-builds/thankyouAppUser-635938772f7350715278-build.zip"
+          "s3Key": "amplify-builds/thankyouAppUser-68554862536676624d70-build.zip"
         }
       },
       "storage": {

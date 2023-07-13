@@ -779,6 +779,7 @@ export default function Login(props) {
         borderRadius="115.5px"
         padding="0px 0px 0px 0px"
         objectFit="cover"
+        src=""
         {...getOverrideProps(
           overrides,
           "DrawKit Vector Illustration Pack Online Shopping-0413344"
